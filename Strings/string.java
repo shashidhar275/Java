@@ -1,6 +1,6 @@
 public class string{
     public static void main(String args[]){
-        // String s = new String("Shashidhar");
+       /* // String s = new String("Shashidhar");
         String s = "Shashidhar "; //Both are same but behind the scene it will create object and all..it will get stored in the heap memory
         String str = "Angadi";
         System.out.println(s);
@@ -9,5 +9,14 @@ public class string{
         System.out.println(name);
         char ch = s.charAt(2);
         System.out.println(ch);
+        */
+
+       String name = "Shashidhar ";
+       name += "Angadi";
+       System.out.println("Hello " + name);
+
+       String s1 = "Atharva";
+       String s2 = "Atharva";
+       System.out.println(s1 == s2);
     }
 }
