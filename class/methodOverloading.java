@@ -1,4 +1,6 @@
-class Calculator{
+class Calcu{
+    public char[] val;
+
     public int add(int num1,int num2){
         return num1 + num2;
     }
@@ -15,7 +17,7 @@ class Calculator{
 
 public class methodOverloading{
     public static void main(String arg[]){
-        Calculator c = new Calculator();
+        Calcu c = new Calcu();
         int result = c.add(2,3);
         int r = c.add(2,3,2);
         double r1 = c.add(2.3,2);
