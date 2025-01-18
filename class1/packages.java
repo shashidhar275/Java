@@ -7,7 +7,7 @@ public class packages {
         /*Calc obj = new Calc();
         System.out.println("Working Successfully");*/
 
-        B i1 = new B();
+        Bc i1 = new Bc();
         System.out.println(i1.value);
 
         Calculator i2 = new Calculator();
